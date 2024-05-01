@@ -140,7 +140,7 @@ The diagnosis results are categorical so they must be converted to numeric in or
 
 After labeling the data, the data is divided into x and y. X contains the variable that determines the diagnosis result (all numeric columns except diagnosis) and Y contains the target variable (diagnosis).
 
-Next, data balancing is done with the SMOTE oversampling method because the amount of data is not too balanced. Data balancing is done so that the model can achieve higher accuracy.
+Next, data balancing is done with the SMOTE oversampling method because the amount of data is not balanced. Data balancing is done so that the model can achieve higher accuracy.
 
 The reason for choosing oversampling is because with less data, undersampling will further reduce the amount of data and potentially decrease accuracy. With the SMOTE oversampling method, the minority class (in this case the "malignant" class) will be added to the amount of data by creating synthesized data. The SMOTE method itself was chosen because it has advantages over the random oversampling method. In the random oversampling method, data from the minority class will only be duplicated until the data is balanced. While the SMOTE method performs data synthesis which will help overcome the overfitting problem caused by the random oversampling method[5].
 
