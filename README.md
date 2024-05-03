@@ -251,8 +251,8 @@ Based on the evaluation results of the three models, the score of each metric ca
 | **Model** | **Train Acc** | **Test Acc** | **Precision** | **Recall** | **Specificity** | **F1-score** | **ROC-AUC score** |
 |:---------------------:|:-------------:|:------------:|:-------------:|:----------:|:---------------:|:------------:|:-----------------:|
 | **Gradient Boosting** | 1.00 | 0.96 | 0.96 | 0.95 | 0.93 | 0.95 | 0.95 |
-| **Random Forest** | 1.00 | 0.96| 0.97 | 0.96 | 0.93 | 0.96 | 0.96 |
-| **Stacking Model** | 1.0 | 0.96 | 0.96 | 0.95 | 0.93 | 0.95 | 0.95 |
+| **Random Forest** | 1.00 | 0.97 | 0.97 | 0.97 | 0.95 | 0.97 | 0.97 |
+| **Stacking Model** | 1.00 | 0.96 | 0.96 | 0.96 | 0.95 | 0.96 | 0.96 |
 
 Based on the results of the evaluation metrics, the best model is **Random Forest** with a slightly higher difference in metric results than Gradient Boosting and Stacking Classifier.
 In the health context, recall (sensitivity) and specificity values are taken into consideration as these affect the diagnosis of a disease. The Random Forest model has the highest value on these two metrics, it is hoped that this can help the accuracy of patient diagnosis and reduce false positive results so as not to waste hospital resources and ensure patients with cancer get fast treatment.
