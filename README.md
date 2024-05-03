@@ -140,14 +140,14 @@ The diagnosis results are categorical so they must be converted to numeric in or
 
 After labeling the data, the data is divided into x and y. X contains the variable that determines the diagnosis result (all numeric columns except diagnosis) and Y contains the target variable (diagnosis).
 
-Next, data balancing is done with the SMOTE oversampling method because the amount of data is not balanced. Data balancing is done so that the model can achieve higher accuracy.
-
-The reason for choosing oversampling is because with less data, undersampling will further reduce the amount of data and potentially decrease accuracy. With the SMOTE oversampling method, the minority class (in this case the "malignant" class) will be added to the amount of data by creating synthesized data. The SMOTE method itself was chosen because it has advantages over the random oversampling method. In the random oversampling method, data from the minority class will only be duplicated until the data is balanced. While the SMOTE method performs data synthesis which will help overcome the overfitting problem caused by the random oversampling method[5].
-
 The dataset is then divided into train and test with a ratio of 80:20.
 The reason why this number is set is because 80/20 is generally considered good enough (unless the training data is very large, then the split data ratio may change). In this dataset, the number of columns is not too large so enough training data is needed to ensure the model is well trained[6].
 
-By setting random_state = 42, the dataset will output the same random data for training and testing data. Through this sharing configuration, we get 80% training data (571 data) from the dataset and 20% testing data from the dataset (143 data).
+By setting random_state = 42, the dataset will output the same random data for training and testing data. Through this sharing configuration, we get 80% training data from the dataset and 20% testing data from the dataset.
+
+Next, data balancing is done with the SMOTE oversampling method because the amount of data is not balanced. Data balancing is done so that the model can achieve higher accuracy.
+
+The reason for choosing oversampling is because with less data, undersampling will further reduce the amount of data and potentially decrease accuracy. With the SMOTE oversampling method, the minority class (in this case the "malignant" class) will be added to the amount of data by creating synthesized data. The SMOTE method itself was chosen because it has advantages over the random oversampling method. In the random oversampling method, data from the minority class will only be duplicated until the data is balanced. While the SMOTE method performs data synthesis which will help overcome the overfitting problem caused by the random oversampling method[5].
 
 ## Modeling
 
