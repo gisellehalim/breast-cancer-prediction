@@ -18,7 +18,7 @@ There are many imaging tests that can be used to diagnose breast cancer, such as
 * Blood flow to the tumor: Breast cancer tumors usually have higher blood flow than normal breast tissue.
 * Tumor spread: Breast cancer tumors may spread to other breast tissues or to lymph nodes in the armpit.
 
-Based on data from GLOBOCAN 2022, breast cancer is the number 1 cancer suffered by Indonesian women. A total of 66,271 new cases of breast cancer occurred in Indonesia in 2022. In addition, breast cancer also has the highest cases in Indonesia when calculated from the overall cancer cases that occur in all genders."[1]
+Based on data from GLOBOCAN 2022, breast cancer is the number 1 cancer suffered by Indonesian women. A total of 66,271 new cases of breast cancer occurred in Indonesia in 2022. In addition, breast cancer also has the highest cases in Indonesia when calculated from the overall cancer cases that occur in all genders.1]
 
 ![GLOBOCAN 2022](https://i.ibb.co/HCwKptQ/GLOBOCAN-2022.png)
 
