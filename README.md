@@ -158,12 +158,11 @@ Gradient Boosting and Random Forest are base models, while Stacking Classifier i
 In all models in this project, the same dataset is used and no parameters are given or set in order to see the comparison more clearly.
 
 **Steps to build a Gradient Boosting model**
-1.Import the *Gradient Boosting* algorithm from sklearn.
 
-2.Training/*fitting* the model using the previously divided x_train and y_train.
+1.Import the Gradient Boosting algorithm from sklearn.
 
-Import the Gradient Boosting algorithm from sklearn.
-Model training/fitting process using x_train and y_train that have been divided before.
+2.Training/fitting the model using the previously divided x_train and y_train. Import the Gradient Boosting algorithm from sklearn. Model training/fitting process using x_train and y_train that have been divided before.
+
 3. Predict testing data with the trained model.
 
 **Steps to build a Random Forest model**
@@ -203,10 +202,6 @@ After the models were trained and made predictions from the testing data, the th
 The three models that have been created will be evaluated with various metrics, namely precision, recall (also called "sensitivity" in the context of medical research), specificity, f1-score, accuracy, and roc-auc score.
 
 In addition, confusion matrix is also used to see the true positive, true negative, false positive, and false negative values.
-
-Gradient Boosting (https://i.ibb.co/T16m477/CMGB.png)
-![Random Forest](https://i.ibb.co/5smb7c0/CMRF.png)
-![Stacking Model](https://i.ibb.co/37j8VTr/CMSC.png)
 
 Because this project is a project in the health sector, the model with the highest measurement results will be sought to minimize the chance of error.
 
